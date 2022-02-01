@@ -1,0 +1,41 @@
+html,
+body {
+	height: 100%;
+	overflow-x: hidden;
+	font-family: 'Uni Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+	font-size: vw(18);
+	
+}
+a{
+	color: #000;
+}
+
+
+
+
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+.container{
+  max-width: vw(1610);
+  margin: 0 auto;
+  padding: 0 vw(15);
+}
+
+
+
+
+
