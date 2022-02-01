@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Тестовое задание</title>
+
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="dist/css/lightbox.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__top">
+                    <div class="header__info">
+
+                        <!--ЛОГОТИП-->
+                        <div class="header__logo">
+                            <a class="header__logo-link" href="#">
+                                <img src="images/logo.png" alt="logo">
+                            </a>
+                            <p class="header__logo-descr">
+                                <span>Профессиональный монтаж дымоходов</span> любой сложности н территории Киева и Киевской обл.
+                            </p>
+                        </div>
+
+                        <!--КАРТА-->
+                        <div class="header__map">
+                            <img class="header__map-img" src="images/map.png" alt="map">
+                            <a class="header__map-link" data-fancybox data-src=#hidden-content href="#">
+                                <span>Украина, Киев,</span> Васильковская 30
+                            </a>
+                            <div class="header__map-popup" id="hidden-content">
+                                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aefbcfb1d899a134a644447f469488dbe047d4cffd4b0cf4e66e2016705fc844a&amp;source=constructor" width="600" height="400" frameborder="0"></iframe>
+                            </div>
+                        </div>
+
+                        <!--ФОРМА ОБРАТНОЙ СВЯЗИ-->
+                        <div class="header__callback">
+                            <a class="header__callback-link" href="#">
+                                Консультация инженера
+                            </a>
+                        </div>
+
+                        <!--КОНТАКТЫ-->
+                        <div class="header__contact-desktop">
+                            <a class="header__phone"  href="tel:+380672425878">+38 067 242-58-78</a>
+                            <div class="header__social">
+                                <a class="header__social-viber header__social-icon"  href="https://www.viber.com"><img src="images/viber.png" alt="viber"></a>
+                                <a class="header__social-telegram header__social-icon"  href="https://web.telegram.org"><img src="images/telegram.png" alt="telegram"></a>
+                                <a class="header__social-whatsapp header__social-icon"  href="https://www.whatsapp.com"><img src="images/whatsApp.png" alt="whatsapp"></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="header__btn">
+                        <img src="images/icon_menu.svg" alt="icon_menu">
+                      </button>
+                    <div class="rightside-menu rightside-menu--close">
+
+                        <!--Кнопка закрыть/открыть меню (моб.версия)-->
+                        <button class="rightside-menu__close">
+                          <img src="images/Path.svg" alt="close">
+                        </button>
+                       
+                        <!--МЕНЮ-->
+                        <nav class="rightside-menu__menu">
+                            <ul class="rightside-menu__list">
+                                <li class="rightside-menu__list-item"><a class="rightside-menu__list-link" href="#">Калькулятор</a></li>
+                                <li class="rightside-menu__list-item"><a class="rightside-menu__list-link" href="#">Услуги</a></li>
+                                <li class="rightside-menu__list-item"><a class="rightside-menu__list-link" href="#">Наши новости</a></li>
+                                <li class="rightside-menu__list-item"><a class="rightside-menu__list-link" href="#">отзывы</a></li>
+                                <li class="rightside-menu__list-item"><a class="rightside-menu__list-link" href="#">консультация</a></li>
+                                <li class="rightside-menu__list-item"><a class="rightside-menu__list-link" href="#">преимущества</a></li>
+                                <li class="rightside-menu__list-item"><a class="rightside-menu__list-link" href="#">производство</a></li>
+                                <li class="rightside-menu__list-item"><a class="rightside-menu__list-link" href="#">вопрос-ответ</a></li>
+                                <li class="rightside-menu__list-item"><a class="rightside-menu__list-link" href="#">контакты</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header__contact-mobile">
+                            <a class="header__phone"  href="tel:+380672425878">+38 067 242-58-78</a>
+                            <div class="header__social">
+                                <a class="header__social-viber header__social-icon"  href="https://www.viber.com"><img src="images/viber.png" alt="viber"></a>
+                                <a class="header__social-telegram header__social-icon"  href="https://web.telegram.org"><img src="images/telegram.png" alt="telegram"></a>
+                                <a class="header__social-whatsapp header__social-icon"  href="https://www.whatsapp.com"><img src="images/whatsApp.png" alt="whatsapp"></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="header__content">
+                    <div class="header__content-offer">
+                        <h1 class="header__content-title">
+                            <span>Монтаж дымоходов из нержавеющей стали</span> для частных домов и предприятий
+                        </h1>
+                        <div class="header__content-items">
+                            <div class="header__content-item">
+                                <p><span>15</span></p>
+                                <p><span>лет устанавливаем дымоходы</span> для частных лиц и организаций</p>
+                            </div>
+                            <div class="header__content-item">
+                                <p>
+                                    <span>Бесплатный выезд инженера</span> в пределах 30 км. от Киева
+                                </p>
+                            </div>
+                            <div class="header__content-item">
+                                <p>
+                                    <span>Монтаж под ключ от 1 дня,</span> в наличии все разрешительные документы
+                                </p>
+                            </div>
+                        </div>
+                        <div class="header__content-info">
+                            <div class="header__content-calculation">
+                                <p class="header__content-text">Рассчитайте стоимость монтажа вашего дымохода за 1 минуту и <span>получите скидку 15%</span> </p>
+                                <a class="header__content-btn "  href="#">
+                                    Рассчитать стоимость монтажа и получить скидку
+                                </a>
+                            </div>
+                            <div class="header__content-progress">
+                                <h2>
+                                    Лицензии и сертификаты в наличии
+                                </h2>
+                                <div class="header__content-slider">
+                                    <div class="header__content-slide">
+                                        <a class="header__content-slide-item" href="images/certificate.jpg" data-lightbox="test">
+                                            <img class="header__content-slide-img" src="images/certificate.jpg" alt="certificate">
+                                        </a>  
+                                    </div>
+                                    <div class="header__content-slide">
+                                        <a class="header__content-slide-item" href="images/certificate.jpg" data-lightbox="test">
+                                            <img class="header__content-slide-img" src="images/certificate.jpg" alt="certificate">
+                                        </a>  
+                                    </div>
+                                    <div class="header__content-slide">
+                                        <a class="header__content-slide-item" href="images/certificate.jpg" data-lightbox="test">
+                                            <img class="header__content-slide-img" src="images/certificate.jpg" alt="certificate">
+                                        </a>  
+                                    </div>
+                                    <div class="header__content-slide">
+                                        <a class="header__content-slide-item" href="images/certificate.jpg" data-lightbox="test">
+                                            <img class="header__content-slide-img" src="images/certificate.jpg" alt="certificate">
+                                        </a>  
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__img">
+                        <img src="images/engineer.png" alt="engineer">
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
